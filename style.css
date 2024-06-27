@@ -11,5 +11,95 @@ body{
 }
 
 #informacoes-evento{
+    flex: 1.4;
+    padding: 2rem 4rem; /*aumenta o espaçamento lateral entre o conteúdo e a página*/
+}
+
+#principal{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+#principal img{
+    height: 50px;
+    margin-right: 0.6rem;
+}
+
+#principal h2{
+    font-size: 2.4rem;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+#exclusivo{
+    /*transforma o texto em maíusculo e deixa azul*/
+    color: #0075ff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#data{
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+       
+}
+
+#descricao{
+    max-width: 500px;
+    margin-top: 1rem;
+    line-height: 1.4rem;
+    margin-bottom:0.5rem;
+}
+#palestrantes{
+    /*coloca as imagens uma ao lado da outra*/
+    display: flex;
+    flex-wrap: wrap;
     
+    
+}
+
+#informacoes-evento h4{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.cards-palestrantes{
+    /*cada card tem 180px (com quadrado e img dentro)*/
+    border: 2px solid #ccc;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    width: 180px;
+    text-align: center;
+}
+.cards-palestrantes img{
+    /*cada img tem 120px e é arredondada*/
+    margin-bottom: 1rem;
+    width: 120px;
+    border-radius: 50%;    
+}
+
+/*estiliza nome do palestrante*/
+.cards-palestrantes .nome{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+/*estiliza funcao do palestrante*/
+.cards-palestrantes .funcao{
+    font-size: 0.9rem;
+    color: gray;
+}
+
+
+
+#formulario-cadastro{
+    flex: 1;
 }
