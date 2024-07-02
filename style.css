@@ -113,4 +113,88 @@ footer{
 
 #formulario-cadastro{
     flex: 1;
+    background-image: url("imagens/pattern.png");
+    background-size: cover;
+    color: white;
+}
+
+#interior-formulario{
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#interior-formulario h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+#interior-formulario p{
+    margin-bottom: 1rem;
+    
+}
+
+#registro-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    
+}
+
+#nome-cadastrado{
+    display: flex;
+    gap: 0.3rem;
+}
+
+#registro-formulario input{
+    padding: 0.8rem 0.6rem;
+    border: none;
+    border-radius: 3px;
+}
+
+#email{
+    min-width: 100%;
+}
+
+#registro-formulario input[type="submit"]{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#registro-formulario input[type="submit"]:hover{
+    background-color: snow;
+    color: #0075ff;
+    border: 2px solid #0075ff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#beneficios{
+    text-align: left;
+    align-items: start;
+    line-height: 1.6rem;
+}
+
+#beneficios h4{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+
+}
+
+#beneficios ul{
+    list-style-position: inside;
 }
