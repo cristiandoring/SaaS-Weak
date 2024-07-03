@@ -100,17 +100,6 @@ main{
 }
 
 
-footer{
-    text-align: center;
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-
 #formulario-cadastro{
     flex: 1;
     background-image: url("imagens/pattern.png");
@@ -197,4 +186,76 @@ footer{
 
 #beneficios ul{
     list-style-position: inside;
+}
+
+/*estilo para celulares*/
+@media (max-width: 450px){
+     /*deixa as informações em colunas*/
+     body{
+        flex-direction: column;
+    }
+
+    #principal{
+        padding: 2rem;
+        padding-bottom: 0;
+        
+    }
+
+    #principal h2{
+        font-size: 3rem;
+    }
+
+    #exclusivo, #data{
+        font-size: 1.4rem;
+    }
+
+    #descricao{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+   #palestrantes{
+    flex-direction: column;
+   }
+   
+   .cards-palestrantes{
+    width: 100%;
+    padding: 2rem;
+
+   }
+
+   .cards-palestrantes img{
+    width: 180px;
+
+   }
+
+   .cards-palestrantes .name{
+    font-size: 50rem;
+   }
+   
+   .cards-palestrantes .funcao{
+    font-size: 1.4rem;
+   }
+
+   #interior-formulario{
+    padding: 2rem;
+    margin: 2rem;
+   }
+
+   #registro-formulario, #nome-cadastrado{
+    gap: 1rem;
+   }
+
+   
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
